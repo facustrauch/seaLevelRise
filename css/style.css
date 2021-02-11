@@ -1043,6 +1043,13 @@ padding-bottom: 5em;
 
 @media (max-width: 992px){
 	.sdgs_img{
+		width: 90%;
+		margin-top: 0em;
+	}
+}
+
+@media (max-width: 768px){
+	.sdgs_img{
 		width: 100%;
 		margin-top: 0em;
 	}
