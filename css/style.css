@@ -4,6 +4,7 @@
 	--maindark: #0b3065;
 	--black:  #000000;
 	--grey: #333333;
+	--greysoft: #777777;
 	--white: #FFFFFF;
 	--gradient:#b6d9f6;
 	/* Design by Facundo A. Strauch and Brian Corbalan */
@@ -124,6 +125,10 @@ hr {
 .flex_end{
 	display: flex;
 	justify-content: flex-end;
+}
+
+.uppercase{
+	text-transform: uppercase;
 }
 
 
@@ -506,6 +511,10 @@ padding-bottom: 5em;
 
 .mb-4em{
 	margin-bottom: 4em;
+}
+
+.mr-2em{
+	margin-right: 2em;
 }
 
 .pad-rig-3em{
@@ -1005,6 +1014,7 @@ padding-bottom: 5em;
     width: 100%;
     object-fit: scale-down;
     object-position: bottom right;
+	padding-left: 2em;
 }
 
 .goal_back{
@@ -1024,13 +1034,17 @@ padding-bottom: 5em;
 
 
 .sdgs_img{
-	width: 100%;
+	width: 80%;
 	margin-bottom: 0px;
+	margin-top: 2em;
 	position:relative;
+	padding: 0px 15px 0px 15px;
 }
+
 @media (max-width: 992px){
 	.sdgs_img{
-		margin-bottom: 0px;
+		width: 100%;
+		margin-top: 0em;
 	}
 }
 
@@ -1269,4 +1283,57 @@ padding-bottom: 5em;
 	.videoyt_three_cell, .videoyt_two_cell, .videoyt_one_cell{
 		height: 110px;
 	}
+}
+
+
+
+/*Sign a petition page */
+
+.petitionimg{
+    width: 100%;
+    max-height: 50vh;
+	min-height: 40em;
+    object-fit: cover;
+	object-position: top center;
+}
+
+
+/*FORM */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--greysoft);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text2], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--greysoft);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: var(--maindark);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: var(--mainprimary);
+}
+
+.back-mainblue{
+	background: -prefix-linear-gradient(left, var(--maindark),var(--gradient));
+	background:linear-gradient(to right, var(--maindark), var(--maindark));;
 }
