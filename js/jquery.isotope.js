@@ -1405,3 +1405,24 @@
   };
 
 })( window, jQuery );
+
+
+
+//Codigo que suma Brian
+
+$(document).ready(function () {
+  var intputElements = document.getElementsByTagName("INPUT");
+  for (var i = 0; i < intputElements.length; i++) {
+      intputElements[i].oninvalid = function (e) {
+          e.target.setCustomValidity("");
+          if (!e.target.validity.valid) {
+              if (e.target.name == "lastname") {
+                  e.target.setCustomValidity("This field cannot be left blank");
+              }
+              else {
+                  e.target.setCustomValidity("This field cannot be left blank");
+              }
+    }
+      };
+  }
+})
