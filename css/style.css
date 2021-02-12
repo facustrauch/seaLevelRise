@@ -877,7 +877,6 @@ padding-bottom: 5em;
 .petition-box{
     background-color: rgba(255, 255, 255, 0.6);
     padding:0.3em 1.2em 0.7em 1.2em;
-    border-radius: 0.8em;
     min-height: 30em;
     display: flex;
     flex-direction: column;
@@ -970,8 +969,15 @@ padding-bottom: 5em;
 .earth-box{
     background-color: rgba(255, 255, 255, 0.6);
     padding:0.3em 1.2em 0.7em 1.2em;
-    border-radius: 0.8em;
+	line-height: 2;
 }
+
+@media (max-width: 1200px){
+	.earth-box{
+		line-height: 1.45;
+	}
+}
+
 
 .world-text{
 	width: 750px;

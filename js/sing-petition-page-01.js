@@ -20,7 +20,7 @@ $(function() {
                 firstName = fname.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/sing-petition-page-01",
+                url: "././mail/sing-petition-page-01.php",
                 type: "POST",
                 data: {
                     fname: fname,
