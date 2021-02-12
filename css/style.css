@@ -386,6 +386,18 @@ header .intro-text {
 }
 
 
+/*Why should we care?*/
+#care{
+	background-color: var(--background);
+}
+.careimg{
+	width: 100%;
+    max-height: 40vh;
+	min-height: 20em;
+    object-fit: cover;
+	object-position: top center;
+}
+
 
 
 /* Slrc Section */
@@ -1330,7 +1342,7 @@ padding-bottom: 5em;
     max-height: 50vh;
 	min-height: 40em;
     object-fit: cover;
-	object-position: top center;
+	object-position: center center;
 }
 
 

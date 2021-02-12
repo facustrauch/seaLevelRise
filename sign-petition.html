@@ -4,14 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>SLRIPSC</title>
-		<meta
-			name="description"
-			content="site of the Sea Level Rise Island People Sovereignty Coalition"
-		/>
-		<meta
-			name="keywords"
-			content="Sea, Level, Island, sovereignty, coalition, climate change, ong, save the world"
-		/>
+		<meta name="description" content="" />
 		<meta name="author" content="Facundo A. Strauch and Brian Corbalan" />
 
 		<!-- Favicons
@@ -136,7 +129,7 @@
 					</div>
 					<div class="col-xs-12 col-md-12 mb-2em">
 						<img
-							src="img/petitions/petition-01.jpg"
+							src="img/Petitions/petition-01.jpg"
 							class="petitionimg"
 							alt="turtle happy"
 						/>
@@ -155,35 +148,38 @@
 							baselines...
 						</p>
 					</div>
-					<div class="col-xs-12 col-md-12 mb-2em">
+					<div id="contact" class="col-xs-12 col-md-12 mb-2em">
 						<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 							<form name="sentMessage" id="contactForm" novalidate>
-								<div class="col-xs-12 col-md-6">
-									<label for="fname">First Name (Required)</label>
+								<div class="col-xs-12 col-md-6 form-group">
 									<input
-										type="text2"
-										id="fname"
-										name="firstname"
-										placeholder="Your name.."
-										required
+										type="text"
+										id="name"
+										class="form-control"
+										placeholder="Name"
+										required="required"
 									/>
+									<p class="help-block text-danger"></p>
 								</div>
 
-								<div class="col-xs-12 col-md-6">
-									<label for="lname">Last Name (Required)</label>
+								<div class="col-xs-12 col-md-6 form-group">
 									<input
-										type="text2"
+										type="text"
 										id="lname"
-										name="lastname"
-										placeholder="Your last name.."
-										required
+										class="form-control"
+										placeholder="Last Name"
+										required="required"
 									/>
+									<p class="help-block text-danger"></p>
 								</div>
 
-								<div class="col-xs-12 col-md-4">
-									<label for="country">Country (Required)</label>
-
-									<select id="country" name="country" required>
+								<div class="col-xs-12 col-md-4 form-group">
+									<select
+										id="country"
+										name="country"
+										class="form-control"
+										required="required"
+									>
 										<option value="Afganistan">Afghanistan</option>
 										<option value="Albania">Albania</option>
 										<option value="Algeria">Algeria</option>
@@ -467,38 +463,47 @@
 										<option value="Zambia">Zambia</option>
 										<option value="Zimbabwe">Zimbabwe</option>
 									</select>
+									<p class="help-block text-danger"></p>
 								</div>
-								<div class="col-xs-12 col-md-4">
-									<label for="state">State (Optional)</label>
+
+								<div class="col-xs-12 col-md-4 form-group">
 									<input
 										type="text"
 										id="state"
-										name="state"
-										placeholder="Your state.."
+										class="form-control"
+										placeholder="State"
 									/>
+									<p class="help-block text-danger"></p>
 								</div>
-								<div class="col-xs-12 col-md-4">
-									<label for="pnumber">Phone number (Optional)</label>
+
+								<div class="col-xs-12 col-md-4 form-group">
 									<input
 										type="text"
-										id="pnumber"
-										name="phonenumber"
-										placeholder="Your phone number.."
+										id="number"
+										class="form-control"
+										placeholder="Phone Number"
 									/>
+									<p class="help-block text-danger"></p>
 								</div>
-								<div class="col-xs-12 col-md-12">
-									<label for="email">E-mail (Required)</label>
+
+								<div class="col-xs-12 col-md-12 form-group">
 									<input
-										type="text"
+										type="email"
 										id="email"
-										name="email"
-										placeholder="Your E-mail.."
-										required
+										class="form-control"
+										placeholder="Email"
+										required="required"
 									/>
-									<div class="tx-center mb-2em">
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<div class="tx-center">
+									<div class="col-xs-12 col-md-12 form-group">
 										<div id="success"></div>
-										<button type="submit">Send Message</button>
 									</div>
+									<button type="submit" class="tx-center mb-2em">
+										Sign petition
+									</button>
 								</div>
 							</form>
 						</div>
@@ -567,7 +572,7 @@
 								well-being, cultural values, tourism, trade, and transport. The
 								state of the ocean and cryosphere interacts with each aspect of
 								sustainability reflected in the United Nations Sustainable
-								Development Goals (SDGs)
+								Development Goals (SDGs).
 							</p>
 						</div>
 					</div>
@@ -606,7 +611,7 @@
 		<script type="text/javascript" src="js/jquery.isotope.js"></script>
 		<script type="text/javascript" src="js/owl.carousel.js"></script>
 		<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-		<script type="text/javascript" src="js/sing-petition-page-01.js"></script>
+		<script type="text/javascript" src="js/contact_me.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
