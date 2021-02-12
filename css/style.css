@@ -544,15 +544,17 @@ padding-bottom: 5em;
     width: 69%;
     height: 582px;
     position: absolute;
-    top: 277px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 @media (max-width: 1530px) {
 	.videoyt_one{
 		width: 68%;
 		height: 448px;
-		position: absolute;
-		top: 290px;
 	}
 }
 
@@ -560,8 +562,6 @@ padding-bottom: 5em;
 	.videoyt_one{
 		width: 67%;
 		height: 366px;
-		position: absolute;
-		top: 332px;
 	}
 }
 
@@ -569,8 +569,6 @@ padding-bottom: 5em;
 	.videoyt_one{
 		width: 67%;
 		height: 283px;
-		position: absolute;
-		top: 374px;
 	}
 }
 
@@ -627,15 +625,17 @@ padding-bottom: 5em;
 	width: 69%;
     height: 582px;
     position: absolute;
-    top: 239px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 @media (max-width: 1530px) {
 	.videoyt_two{
 		width: 68%;
 		height: 447px;
-		position: absolute;
-		top: 273px;
 	}
 }
 
@@ -643,8 +643,6 @@ padding-bottom: 5em;
 	.videoyt_two{
 		width: 67%;
 		height: 366px;
-		position: absolute;
-		top: 311px;
 	}
 }
 
@@ -652,8 +650,6 @@ padding-bottom: 5em;
 	.videoyt_two{
 		width: 67%;
 		height: 283px;
-		position: absolute;
-		top: 374px;
 	}
 }
 
@@ -662,7 +658,11 @@ padding-bottom: 5em;
 	width: 69%;
     height: 582px;
     position: absolute;
-    top: 288px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
 }
 
 @media (max-width: 1530px) {
@@ -670,7 +670,11 @@ padding-bottom: 5em;
 		width: 68%;
 		height: 448px;
 		position: absolute;
-		top: 298px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
 	}
 }
 
@@ -679,7 +683,11 @@ padding-bottom: 5em;
 		width: 67%;
 		height: 366px;
 		position: absolute;
-		top: 337px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
 	}
 }
 
@@ -688,7 +696,11 @@ padding-bottom: 5em;
 		width: 67%;
 		height: 283px;
 		position: absolute;
-		top: 380px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
 	}
 }
 
@@ -955,6 +967,12 @@ padding-bottom: 5em;
 
 /*Goals Section*/
 
+.earth-box{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding:0.3em 1.2em 0.7em 1.2em;
+    border-radius: 0.8em;
+}
+
 .world-text{
 	width: 750px;
 	max-width: 750px;
@@ -1111,6 +1129,11 @@ padding-bottom: 5em;
 
 .first-half{
 	padding-top:40px;
+}
+
+
+.last-half-mar{
+	margin-bottom: 60px;
 }
 
 .last-half{
