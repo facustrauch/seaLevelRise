@@ -4,14 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>SLRIPSC</title>
-		<meta
-			name="description"
-			content="site of the Sea Level Rise Island People Sovereignty Coalition"
-		/>
-		<meta
-			name="keywords"
-			content="Sea, Level, Island, sovereignty, coalition, climate change, ong, save the world"
-		/>
+		<meta name="description" content="" />
 		<meta name="author" content="Facundo A. Strauch and Brian Corbalan" />
 
 		<!-- Favicons
@@ -156,34 +149,39 @@
 						</p>
 					</div>
 					<div class="col-xs-12 col-md-12 mb-2em">
-						<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+						<div
+							class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 mb-2em"
+						>
 							<form name="sentMessage" id="contactForm" novalidate>
-								<div class="col-xs-12 col-md-6">
-									<label for="fname">First Name (Required)</label>
+								<div class="col-xs-12 col-md-6 form-group">
 									<input
-										type="text2"
-										id="fname"
-										name="firstname"
-										placeholder="Your name.."
-										required
+										type="text"
+										id="name"
+										class="form-control"
+										placeholder="Name"
+										required="required"
 									/>
+									<p class="help-block text-danger"></p>
 								</div>
 
-								<div class="col-xs-12 col-md-6">
-									<label for="lname">Last Name (Required)</label>
+								<div class="col-xs-12 col-md-6 form-group">
 									<input
-										type="text2"
+										type="text"
 										id="lname"
-										name="lastname"
-										placeholder="Your last name.."
-										required
+										class="form-control"
+										placeholder="Last Name"
+										required="required"
 									/>
+									<p class="help-block text-danger"></p>
 								</div>
 
-								<div class="col-xs-12 col-md-4">
-									<label for="country">Country (Required)</label>
-
-									<select id="country" name="country" required>
+								<div class="col-xs-12 col-md-4 form-group">
+									<select
+										id="country"
+										name="country"
+										class="form-control"
+										required="required"
+									>
 										<option value="Afganistan">Afghanistan</option>
 										<option value="Albania">Albania</option>
 										<option value="Algeria">Algeria</option>
@@ -467,38 +465,47 @@
 										<option value="Zambia">Zambia</option>
 										<option value="Zimbabwe">Zimbabwe</option>
 									</select>
+									<p class="help-block text-danger"></p>
 								</div>
-								<div class="col-xs-12 col-md-4">
-									<label for="state">State (Optional)</label>
+
+								<div class="col-xs-12 col-md-4 form-group">
 									<input
 										type="text"
 										id="state"
-										name="state"
-										placeholder="Your state.."
+										class="form-control"
+										placeholder="State"
 									/>
+									<p class="help-block text-danger"></p>
 								</div>
-								<div class="col-xs-12 col-md-4">
-									<label for="pnumber">Phone number (Optional)</label>
+
+								<div class="col-xs-12 col-md-4 form-group">
 									<input
 										type="text"
-										id="pnumber"
-										name="phonenumber"
-										placeholder="Your phone number.."
+										id="number"
+										class="form-control"
+										placeholder="Phone Number"
 									/>
+									<p class="help-block text-danger"></p>
 								</div>
-								<div class="col-xs-12 col-md-12">
-									<label for="email">E-mail (Required)</label>
+
+								<div class="col-xs-12 col-md-12 form-group">
 									<input
-										type="text"
+										type="email"
 										id="email"
-										name="email"
-										placeholder="Your E-mail.."
-										required
+										class="form-control"
+										placeholder="Email"
+										required="required"
 									/>
-									<div class="tx-center mb-2em">
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<div class="tx-center">
+									<div class="col-xs-12 col-md-12 form-group">
 										<div id="success"></div>
-										<button type="submit">Send Message</button>
 									</div>
+									<button type="submit" class="tx-center mb-2em">
+										Sign petition
+									</button>
 								</div>
 							</form>
 						</div>
@@ -522,7 +529,10 @@
 								and cryosphere. The global ocean covers 71% of the Earth surface
 								and contains about 97% of the Earth’s water. The cryosphere
 								refers to frozen components of the Earth system.
-								<br />
+							</p>
+
+							<p />
+							<p>
 								Around 10% of Earth’s land area is covered by glaciers or ice
 								sheets. The ocean and cryosphere support unique habitats and are
 								interconnected with other components of the climate system
@@ -531,7 +541,9 @@
 								current human-induced greenhouse gas emissions and ongoing
 								global warming include climate feedbacks, changes over decades
 								to millennia that cannot be avoided, thresholds of abrupt
-								change, and irreversibility. <br />
+								change, and irreversibility.
+							</p>
+							<p>
 								Human communities in close connection with coastal environments,
 								small islands (including Small Island Developing States, SIDS),
 								polar areas and high mountains7 are particularly exposed to
@@ -553,7 +565,9 @@
 								including Indigenous peoples, live in high mountain regions in
 								all continents except Antarctica. In high mountain regions,
 								population is projected to reach between 740 and 840 million by
-								2050 (about 8.4–8.7% of the projected global population). <br />
+								2050 (about 8.4–8.7% of the projected global population).
+							</p>
+							<p>
 								In addition to their role within the climate system, such as the
 								uptake and redistribution of natural and anthropogenic carbon
 								dioxide (CO2) and heat, as well as ecosystem support, services
@@ -601,7 +615,7 @@
 		<script type="text/javascript" src="js/jquery.isotope.js"></script>
 		<script type="text/javascript" src="js/owl.carousel.js"></script>
 		<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-		<script type="text/javascript" src="js/sing-petition-page-01.js"></script>
+		<script type="text/javascript" src="js/contact_me.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

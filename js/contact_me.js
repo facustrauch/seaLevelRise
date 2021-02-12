@@ -9,8 +9,12 @@ $(function() {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
+			var lname = $("input#lname").val();
+			var country = $("input#country").val();
+			var state = $("input#state").val();
+			var number = $("input#number").val();
             var email = $("input#email").val();
-            var message = $("textarea#message").val();
+			
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -21,8 +25,11 @@ $(function() {
                 type: "POST",
                 data: {
                     name: name,
+					lname: lname,
+					country: country,
+					state: state,
+					number: number,
                     email: email,
-                    message: message
                 },
                 cache: false,
                 success: function() {

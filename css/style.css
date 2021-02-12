@@ -868,7 +868,7 @@ padding-bottom: 5em;
 .petition_back{
 	width: 100%;
 	min-height: 50vh;
-	background: var(--maindark) url(../img/Petitions/petition_background.jpg) center center no-repeat fixed;
+	background: var(--maindark) url(../img/petitions/petition_background.jpg) center center no-repeat fixed;
 	background-size: cover;
 	display: flex;
 	padding: 2em 0em;
@@ -921,7 +921,7 @@ padding-bottom: 5em;
 .morph_back{
 	width: 100%;
 	min-height: 100vh;
-	background: var(--maindark) url(../img/Morph/morph_background.jpg) center center no-repeat fixed;
+	background: var(--maindark) url(../img/morph/morph_background.jpg) center center no-repeat fixed;
 	background-size: cover;
 	display: flex;
 	padding: 2em 0em;
