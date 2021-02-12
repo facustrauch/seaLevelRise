@@ -29,7 +29,6 @@ $(function() {
 					state: state,
 					pnumber: pnumber,
                     email: email,
-                    
                 },
                 cache: false,
                 success: function() {
