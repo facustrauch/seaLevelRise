@@ -857,6 +857,20 @@ padding-bottom: 5em;
 	margin-left: 0.5em;
 }
 
+#hcyh a{
+	color: var(--maindark);
+}
+#hcyh a p{
+	color: var(--grey);
+}
+
+#hcyh a:hover, #hcyh a p:hover{
+	color:var(--mainprimary)
+}
+
+
+
+
 
 .help_img {
     width: 100%;
@@ -989,15 +1003,16 @@ padding-bottom: 5em;
     font-size: 18px;
 }
 
-.a_alliance {
+
+.a_alliance h3{
 	color: var(--maindark);
 	font-weight: 900;
 }
-.a_alliance:hover, .a_alliance:focus {
-	text-decoration: none;
+
+.a_alliance:hover h3, .a_alliance:focus h3{
 	color: var(--mainprimary);
-	font-weight: 900;
 }
+
 
 /*Goals Section*/
 
