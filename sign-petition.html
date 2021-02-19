@@ -158,9 +158,16 @@
 							/>
 							<style type="text/css">
 								#mc_embed_signup {
-									background: #fff;
+									background: #f9f9f9;
 									clear: left;
 									font: 14px Helvetica, Arial, sans-serif;
+								}
+								#mc_embed_signup .button {
+									background-color: var(--maindark);
+									border-radius: 0;
+								}
+								#mc_embed_signup .button:hover {
+									background-color: var(--mainprimary);
 								}
 								/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
@@ -176,7 +183,7 @@
 									novalidate
 								>
 									<div id="mc_embed_signup_scroll">
-										<h2>Subscribe</h2>
+										<h2>Sign a petition for Law of the Seas</h2>
 										<div class="indicates-required">
 											<span class="asterisk">*</span> indicates required
 										</div>
@@ -193,55 +200,28 @@
 											/>
 										</div>
 										<div class="mc-field-group">
-											<label for="mce-FNAME">First Name </label>
+											<label for="mce-FNAME"
+												>Your Name <span class="asterisk">*</span></label
+											>
 											<input
 												type="text"
 												value=""
 												name="FNAME"
-												class=""
+												class="required"
 												id="mce-FNAME"
 											/>
 										</div>
 										<div class="mc-field-group">
-											<label for="mce-LNAME">Last Name </label>
+											<label for="mce-LNAME"
+												>Country <span class="asterisk">*</span></label
+											>
 											<input
 												type="text"
 												value=""
 												name="LNAME"
-												class=""
+												class="required"
 												id="mce-LNAME"
 											/>
-										</div>
-										<div class="mc-field-group size1of2">
-											<label for="mce-BIRTHDAY-month">Birthday </label>
-											<div class="datefield">
-												<span class="subfield monthfield"
-													><input
-														class="birthday"
-														type="text"
-														pattern="[0-9]*"
-														value=""
-														placeholder="MM"
-														size="2"
-														maxlength="2"
-														name="BIRTHDAY[month]"
-														id="mce-BIRTHDAY-month"
-												/></span>
-												/
-												<span class="subfield dayfield"
-													><input
-														class="birthday"
-														type="text"
-														pattern="[0-9]*"
-														value=""
-														placeholder="DD"
-														size="2"
-														maxlength="2"
-														name="BIRTHDAY[day]"
-														id="mce-BIRTHDAY-day"
-												/></span>
-												<span class="small-meta nowrap">( mm / dd )</span>
-											</div>
 										</div>
 										<div id="mce-responses" class="clear">
 											<div
@@ -270,7 +250,7 @@
 										<div class="clear">
 											<input
 												type="submit"
-												value="Subscribe"
+												value="Submit Petition"
 												name="subscribe"
 												id="mc-embedded-subscribe"
 												class="button"
