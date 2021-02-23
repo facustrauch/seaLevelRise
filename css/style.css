@@ -1637,6 +1637,12 @@ button[type=submit]:hover {
 .sdgs-info{
 	width: 100%;
 	box-shadow: 10px 10px 10px rgb(0 0 0 / 8%);
+	margin-bottom: 0px;
+}
+@media (max-width: 992px){
+	.sdgs-info{
+		margin-bottom: 2em;
+	}
 }
 .sdgs-id{
 	padding-top: 100px;
