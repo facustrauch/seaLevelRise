@@ -66,6 +66,7 @@ h4{
     font-weight: 900;
     color: var(--maindark);
 	margin-bottom: 20px;
+	line-height: 1.2;
 }
 h5 {
 	font-family: 'Lato', sans-serif;
@@ -1185,6 +1186,10 @@ padding-bottom: 5em;
 
 
 /*SDGS Background color*/
+.sdgzero{
+	background-color: #B1F2EF;
+}
+
 .sdgone{
 background-color: #e5243b;
 }
