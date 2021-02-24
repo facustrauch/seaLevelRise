@@ -1652,3 +1652,33 @@ button[type=submit]:hover {
 .sdgs-id{
 	padding-top: 100px;
 }
+
+/* begin begin Back to Top button  */
+
+.back_to_top {
+	position: fixed;
+	bottom: 80px;
+	right: 40px;
+	z-index: 9999;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background:var(--white);
+	color: var(--mainprimary);
+	cursor: pointer;
+	border-radius: 2px;
+	display: none;
+  }
+  
+  .back_to_top:hover {
+	background: var(--mainprimary);
+	color: var(--white);
+  }
+  
+  .back_to_top-show {
+	display: block;
+  }
+  
+  
+  /* end begin Back to Top button  */
