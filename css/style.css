@@ -1664,8 +1664,8 @@ button[type=submit]:hover {
 	height: 30px;
 	text-align: center;
 	line-height: 30px;
-	background:var(--white);
-	color: var(--mainprimary);
+	background: var(--maindark);
+	color: var(--white);
 	cursor: pointer;
 	border-radius: 2px;
 	display: none;
