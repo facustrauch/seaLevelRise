@@ -624,6 +624,21 @@ padding-bottom: 5em;
 	}
 }
 
+.education_back{
+	width: 100%;
+	min-height: 100vh;
+	background: var(--maindark) url(../img/yt_frame/yt_background_two.jpg) center center no-repeat fixed;
+	background-size: cover;
+	display: flex;
+	padding: 2em 0em;
+}
+
+@media (max-width: 768px){
+	.education_back{
+		min-height: 50vh;
+	}
+}
+
 .justify-content-center{
 	justify-content: center;
 	display: flex;
@@ -753,6 +768,32 @@ padding-bottom: 5em;
 	}
 }
 
+
+/*David Section*/
+.david_img {
+    width: 100%;
+	object-fit: cover;
+	object-position: bottom center;
+}
+
+@media (max-width: 1530px) {
+	.david_img{
+		height: 355px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.david_img{
+		height: 405px;
+	}
+}
+
+@media (max-width: 992px) {
+	.david_img{
+		height: 285px;
+		object-position: center center;
+	}
+}
 
 /* Earth Club Section */
 .earthclubflag{
@@ -1009,6 +1050,7 @@ padding-bottom: 5em;
     align-items: center;
     padding: 2em 1em;
 	max-width: 15em;
+    min-width: 12em;
 }
 .alliance_logo_img{
 	max-height: 100px;
