@@ -499,6 +499,41 @@ background-color: var(--background);
 	}
 }
 
+
+.slr_five_back{
+	width: 100%;
+	min-height: 50vh;
+	background: var(--background) url(../img/slrc/slrc_four.jpg) center center no-repeat ;
+	background-size: cover;
+	display: flex;
+	padding: 2em 0em;
+}
+
+@media (max-width: 992px){
+	.slr_five_back{
+		background: var(--background);
+		min-height: 0vh;
+		padding: 0;
+	}
+}
+
+.slr_six_back{
+	width: 100%;
+	min-height: 50vh;
+	background: var(--background) url(../img/slrc/slrc_six.jpg) center center no-repeat ;
+	background-size: cover;
+	display: flex;
+	padding: 2em 0em;
+}
+
+@media (max-width: 992px){
+	.slr_six_back{
+		background: var(--background);
+		min-height: 0vh;
+		padding: 0;
+	}
+}
+
 .slrc-img{
 	display: none;
 	width: 100%;
