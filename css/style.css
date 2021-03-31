@@ -485,7 +485,7 @@ background-color: var(--background);
 .slr_four_back{
 	width: 100%;
 	min-height: 50vh;
-	background: var(--background) url(../img/slrc/slrc_five.jpg) center center no-repeat ;
+	background: var(--background) url(../img/slrc/slrc_six.jpg) center center no-repeat ;
 	background-size: cover;
 	display: flex;
 	padding: 2em 0em;
@@ -520,7 +520,7 @@ background-color: var(--background);
 .slr_six_back{
 	width: 100%;
 	min-height: 50vh;
-	background: var(--background) url(../img/slrc/slrc_six.jpg) center center no-repeat ;
+	background: var(--background) url(../img/slrc/slrc_seven.jpg) center center no-repeat ;
 	background-size: cover;
 	display: flex;
 	padding: 2em 0em;
@@ -1079,12 +1079,16 @@ padding-bottom: 5em;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.contenedor_logo{
+	max-width: 1000px;
+	margin:auto;
+}
 .alliance_logo_div{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2em 1em;
-	max-width: 15em;
+	max-width: 16em;
     min-width: 12em;
 }
 .alliance_logo_img{
@@ -1095,6 +1099,8 @@ padding-bottom: 5em;
     flex-direction: column;
     align-items: center;
     padding: 2em 2em;
+	max-width: 16em;
+    min-width: 12em;
 }
 
 #alliances .alliance-h3{
